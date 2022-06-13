@@ -156,7 +156,7 @@ blocks brute-forcing attempts:
   set firewall name OUTSIDE-LOCAL rule 30 destination port '22'
   set firewall name OUTSIDE-LOCAL rule 30 protocol 'tcp'
   set firewall name OUTSIDE-LOCAL rule 30 recent count '4'
-  set firewall name OUTSIDE-LOCAL rule 30 recent time '60'
+  set firewall name OUTSIDE-LOCAL rule 30 recent time 'minute'
   set firewall name OUTSIDE-LOCAL rule 30 state new 'enable'
 
   set firewall name OUTSIDE-LOCAL rule 31 action 'accept'
